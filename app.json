@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "family hub",
+    "slug": "family-hub",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jatmig.familyhub"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jatmig.familyhub"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "60e515e1-9736-4fbf-906c-acf3d8f96aaf"
+      }
+    },
+    "owner": "jatmig",
+    "updates": {
+      "url": "https://u.expo.dev/60e515e1-9736-4fbf-906c-acf3d8f96aaf"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
